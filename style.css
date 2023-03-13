@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #0d192c;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  border-radius: 8px;
+  height: 302px;
+}
+
+.img2 {
+  width: 33px;
+  
+ 
+  
+}
+.container {
+  background-color: #15263F;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 24px;
+  position: relative;
+  width: 350px;
+  
+  
+  
+}
+
+.view {
+  background-color: #00FFF8;
+  position: relative;
+  border-radius: 10px;
+  height: 302px;
+  width: 302px;
+  cursor: pointer;
+  
+
+  
+}
+
+.text1 {
+  color: #FFFFFF;
+  cursor: pointer;
+  
+  
+}
+
+
+.h11:hover {
+  color: #00FFF8;
+} 
+
+.eye {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+
+}
+
+.view:hover .img {
+  opacity: 0.5;
+}
+
+.view:hover .eye {
+  display: block;
+}
+
+
+.h11 {color: white;
+font-size: 22px;
+margin: 16px 0; 
+
+
+
+
+}
+
+h2 {
+    font-size: 17px;
+    color: #8BACD9;
+    display: flex;
+    width: 104%;
+    margin-bottom: 24px;
+    cursor: pointer;
+ 
+      
+    
+
+   
+}
+
+.eth {
+    font-size: 16px;
+    color: #00FFF8;
+    cursor: pointer;
+  
+    
+    
+    
+}
+
+.days { font-size: 16px;
+     color: #8BACD9;
+     cursor: pointer;
+
+    
+}
+
+.creation { 
+  color: #8BACD9;
+  cursor: pointer;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+
+}
+
+.jules {  color: #FFFFFF;
+  margin-left: -25px;
+  cursor: pointer;
+
+}
+
+.jules:hover {
+  color: #00FFF8;
+}
+.line {
+    background: #2E405A;
+    height: 1px;
+    margin-top: 24px;
+
+}
+
+.wraper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  
+
+}
+
+.wraper-box {
+  display: flex;
+  width: 110px;
+  gap: 6.48px;
+  align-items: center;
+
+}
+
+.avatar {
+  display: flex;
+  width: 88%;
+  margin-top: 16px;
+  cursor: pointer;
+
+}
+
+.avatar-box {
+  display: flex;
+  width: 110px;
+  align-items: center;
+
+}
+ .jules {
+  margin-left: 4px;
+  
+  
+ }
